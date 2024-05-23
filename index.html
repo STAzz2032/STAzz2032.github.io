@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mascot.css">
 </head>
 <body>
     <header>
@@ -16,7 +17,16 @@
         <h1>Orhid Color</h1>
         <p>Your Partner in Advertising Success</p>
     </header>
-    <nav>
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <nav class="desktop-nav">
         <ul>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
@@ -50,5 +60,10 @@
         <p>&copy; 2024 OrhidColor. All rights reserved.</p>
     </footer>
 
+    <div class="mascot-container">
+        <div class="mascot">
+            <img src="panda.svg" alt="Panda Mascot">
+            <div class="mascot-message">Need any help?</div>
+        </div>
 </body>
 </html>
